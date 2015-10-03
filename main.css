@@ -2,6 +2,7 @@ body {
 	background-image: url("images/lawn.jpg");
 	background-color: #333333;
 	color:#99E0BE;
+	text-align: center;
 }
 #title {
 	padding-bottom: 10px;
@@ -19,7 +20,10 @@ h3 {
 	
 }
 ul {
- padding-left: inherit;
+	list-style: none;
+	padding-left: 0;
+	position: relative;
+	text-align: center;
 }
 li {
 	display: inline;
@@ -27,4 +31,12 @@ li {
 a {
 	color: #FFFFFF;
 	text-decoration: none;
+}
+
+.btn:hover, a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #333333;
+	transition: background-color 1s;
 }
