@@ -27,6 +27,9 @@ button {
 	border: none;
 	color: #CCCCCC;
 }
+.dropdown-toggle {
+	padding: 6px;
+}
 button:hover{
 	background-color: transparent;
 	color: white;
@@ -59,9 +62,15 @@ a:hover {
 	color: #FFFFFF;
 	transition: .5s;
 }
+.btn {
+	border: 1px solid #CCCCCC;
+	margin: 4px;
+	padding: 3px;
+}
 .btn:hover{
 	text-decoration: none;
 	background-color: rgba(255, 182, 193, 0.50);
 	/*font-weight: bold;*/
+	border: 0 solid #CCCCCC;
 	transition: background-color 1s, font-weight .1s;
 }
