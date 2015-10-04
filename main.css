@@ -1,3 +1,23 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 320px) {
+
+   body { font-size: 2em; }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+#usmade {
+	font-size: 10px;
+	color: #CCCCCC;
+}
+
 body {
 	background: url(images/lawn.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
@@ -15,7 +35,7 @@ body {
 #nav {
 }
 .header {
-	background-color: rgba(50, 50, 50, .4)
+	background-color: rgba(50, 50, 50, .4);
 }
 .headpic img {
 	width: 100%;
@@ -37,9 +57,10 @@ button:hover{
 h1 {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	font-size: 60px;
 }
 h2 {
-
+	margin-top:0;
 }
 h3 {
 	
@@ -73,4 +94,24 @@ a:hover {
 	/*font-weight: bold;*/
 	border: 0 solid #CCCCCC;
 	transition: background-color 1s, font-weight .1s;
+}
+.mainbody {
+	color: #EEEEEE;
+	text-align: left;
+	margin-top: 10px;
+}
+.mainbody img {
+	float: right;
+	width: 40%;
+	margin-top:20px;
+}
+.mainbody .btn {
+	background-color: white;
+	color: black;
+}
+.mainbody .btn :hover {
+	background-color: transparent;
+}
+.mainbody a {
+	color: black;
 }
