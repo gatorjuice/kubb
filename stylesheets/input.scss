@@ -1,41 +1,40 @@
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
+$primary_gray: #333333;
+$main_font: #99E0BE;
 
-/* Small devices (tablets, 768px and up) */
-@media only screen and (max-width: 320px) {
 
-   body { font-size: 2em; }
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
 #usmade {
 	font-size: 10px;
 	color: #CCCCCC;
 }
 
 body {
-	background: url(images/lawn.jpg) no-repeat center center fixed; 
+	background: url(../images/lawn.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-color: #333333;
-	color:#99E0BE;
+	background-color: $primary_gray ;
+	color: $main_font;
 	text-align: center;
+}
+.row {
+	background-color: rgba(100, 100, 100, .7);
+	padding: 10px;
+	
+}
+.mainbody .row {
+	margin: 0 150px 0 150px;
+}
+.col-xs-5 {
+	padding-left: 0;
 }
 #title {
 	padding-bottom: 0;
-
 }
 #nav {
 }
 .header {
-	background-color: rgba(50, 50, 50, .4);
+	background-color: rgba(50, 50, 50, .5);
 }
 .headpic img {
 	width: 100%;

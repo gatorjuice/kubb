@@ -1,0 +1,106 @@
+#usmade {
+  font-size: 10px;
+  color: #CCCCCC; }
+
+body {
+  background: url(../images/lawn.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #333333;
+  color: #99E0BE;
+  text-align: center; }
+
+.row {
+  background-color: rgba(100, 100, 100, 0.7);
+  padding: 10px; }
+
+.mainbody .row {
+  margin: 0 150px 0 150px; }
+
+.col-xs-5 {
+  padding-left: 0; }
+
+#title {
+  padding-bottom: 0; }
+
+.header {
+  background-color: rgba(50, 50, 50, 0.5); }
+
+.headpic img {
+  width: 100%;
+  max-height: 100px;
+  max-width: 180px;
+  margin: 20px auto 10px auto;
+  /*box-shadow: 10px 10px 5px rgba(150,150,150,.25);*/ }
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #CCCCCC; }
+
+.dropdown-toggle {
+  padding: 6px; }
+
+button:hover {
+  background-color: transparent;
+  color: white; }
+
+h1 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 60px; }
+
+h2 {
+  margin-top: 0; }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center; }
+
+li {
+  display: inline; }
+
+a {
+  color: #CCCCCC;
+  text-decoration: none;
+  padding: 10px; }
+
+a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: .5s; }
+
+.btn {
+  border: 1px solid #CCCCCC;
+  margin: 4px;
+  padding: 3px; }
+
+.btn:hover {
+  text-decoration: none;
+  background-color: rgba(255, 182, 193, 0.5);
+  /*font-weight: bold;*/
+  border: 0 solid #CCCCCC;
+  transition: background-color 1s, font-weight .1s; }
+
+.mainbody {
+  color: #EEEEEE;
+  text-align: left;
+  margin-top: 10px; }
+
+.mainbody img {
+  width: 100%; }
+
+.mainbody .btn {
+  background-color: white;
+  color: black; }
+
+.mainbody .btn :hover {
+  background-color: transparent; }
+
+.mainbody a {
+  color: black; }
+
+/*# sourceMappingURL=main.css.map */
